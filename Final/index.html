@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cricket Mobile Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  </head>
+  <body>
+    <div data-role="page" id="home">
+      <div data-role="header" data-theme="b">
+        <h1>Cricket Mobile Website</h1>
+      </div>
+      <div data-role="content" data-theme="b">
+        <ul data-role="listview" data-inset="true">
+          <li data-role="list-divider">Upcoming Matches</li>
+          <li>
+            <a href="#india-vs-australia" data-transition="slide"
+              >India vs. Australia</a
+            >
+          </li>
+          <li>
+            <a href="#england-vs-newzealand" data-transition="slide"
+              >England vs. New Zealand</a
+            >
+          </li>
+          <li><a href="#more-teams" data-transition="slide">More Teams</a></li>
+          <li><a href="#contact" data-transition="slide">Contact</a></li>
+        </ul>
+        <div data-role="collapsible" data-theme="b" data-content-theme="a">
+          <h3>Latest News</h3>
+          <p>Stay tuned for the latest cricket updates!</p>
+        </div>
+      </div>
+      <div data-role="footer" data-theme="b">
+        <h4>&copy; 2024 Cricket Mobile</h4>
+      </div>
+    </div>
+
+    <div data-role="page" id="india-vs-australia">
+      <!-- Content for India vs. Australia page -->
+    </div>
+
+    <div data-role="page" id="england-vs-newzealand">
+      <!-- Content for England vs. New Zealand page -->
+    </div>
+
+    <div data-role="page" id="more-teams">
+      <!-- Additional teams info -->
+    </div>
+    <div data-role="page" id="india-vs-australia" data-theme="a">
+      <div data-role="header" data-theme="a">
+        <h1>India vs. Australia</h1>
+      </div>
+      <div data-role="content" data-theme="a">
+        <p>India vs. Australia match details: Date, Venue, Time, etc.</p>
+      </div>
+      <div data-role="footer" data-theme="a">
+        <h4>&copy; 2024 Cricket Mobile</h4>
+      </div>
+    </div>
+
+    <div data-role="page" id="england-vs-newzealand" data-theme="b">
+      <div data-role="header" data-theme="b">
+        <h1>England vs. New Zealand</h1>
+      </div>
+      <div data-role="content" data-theme="b">
+        <p>England vs. New Zealand match details: Date, Venue, Time, etc.</p>
+      </div>
+      <div data-role="footer" data-theme="b">
+        <h4>&copy; 2024 Cricket Mobile</h4>
+      </div>
+    </div>
+
+    <div data-role="page" id="more-teams" data-theme="c">
+      <div data-role="header" data-theme="c">
+        <h1>More Teams</h1>
+      </div>
+      <div data-role="content" data-theme="c">
+        <p>Additional cricket teams information can be displayed here.</p>
+      </div>
+      <div data-role="footer" data-theme="c">
+        <h4>&copy; 2024 Cricket Mobile</h4>
+      </div>
+    </div>
+    <div data-role="page" id="contact">
+      <div data-role="header" data-theme="b">
+        <h1>Contact Us</h1>
+      </div>
+      <div data-role="content" data-theme="b">
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" />
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" />
+          <label for="message">Message:</label>
+          <textarea name="message" id="message"></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+
+      <div data-role="footer" data-theme="b">
+        <h4>&copy; 2024 Cricket Mobile</h4>
+      </div>
+    </div>
+  </body>
+</html>

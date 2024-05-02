@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>College Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+    />
+    <link rel="stylesheet" href="path_to_your_custom_stylesheet.css" />
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+      /* Add your CSS here if not using an external stylesheet */
+      .header-logo {
+        text-align: center;
+        margin-top: 10px;
+      }
+      .header-logo img {
+        max-width: 150px;
+        height: auto;
+      }
+      .footer-content {
+        text-align: center;
+        padding: 10px;
+      }
+      .custom-list-divider {
+        background-color: rgb(28, 120, 212);
+        color: rgb(236, 0, 0);
+        text-shadow: none;
+      }
+      .custom-page-theme .ui-btn {
+        background-color: #58a;
+        border-color: #447;
+        color: white;
+        text-shadow: none;
+      }
+      /* ... additional custom styles ... */
+    </style>
+  </head>
+  <body>
+    <!-- Home Page -->
+    <div data-role="page" id="home" class="custom-page-theme">
+      <div data-role="header">
+        <div class="header-logo">
+          <img src="path_to_college_logo.png" alt="College Logo" />
+        </div>
+        <h1>Welcome to Our College</h1>
+      </div>
+
+      <div data-role="content">
+        <ul data-role="listview" data-inset="true">
+          <li data-role="list-divider" class="custom-list-divider">Menu</li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#departments">Departments</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+<!-- Form for Admission Inquiry -->
+<form>
+    <h2>Admission Inquiry</h2>
+    <label for="name">Name:</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      placeholder="Enter your name"
+    />
+    <label for="email">Email:</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="Enter your email"
+    />
+    <label for="message">Message:</label>
+    <textarea
+      id="message"
+      name="message"
+      placeholder="Enter your message"
+    ></textarea>
+    <button type="submit" class="ui-btn ui-btn-b">Submit</button>
+  </form>
+</div>
+<div data-role="footer">
+  <div class="footer-content">&copy; 2023 Our College</div>
+</div>
+
+
+        <!-- Additional home page content -->
+        <p>
+          Welcome to the official mobile site of Our College, your gateway to
+          excellence in education and learning.
+        </p>
+        
+        <!-- Form for Newsletter Subscription -->
+        <form>
+          <h2>Subscribe to Our Newsletter</h2>
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+          <button type="submit" class="ui-btn ui-btn-b">Subscribe</button>
+        </form>
+      </div>
+
+      <div data-role="footer">
+        <div class="footer-content">&copy; 2023 Our College</div>
+      </div>
+    </div>
+
+    <!-- About Page -->
+    <div data-role="page" id="about" class="custom-page-theme">
+      <div data-role="header">
+        <h1>About Us</h1>
+      </div>
+      <div data-role="content">
+        <h2>Our History</h2>
+        <p>
+          Our College was founded in 1967 and has been providing quality
+          education ever since...
+        </p>
+        <!-- Additional about page content -->
+      </div>
+      <div data-role="footer">
+        <div class="footer-content">&copy; 2023 Our College</div>
+      </div>
+    </div>
+
+    <!-- Departments Page -->
+    <div data-role="page" id="departments" class="custom-page-theme">
+      <div data-role="header">
+        <h1>Departments</h1>
+      </div>
+      <div data-role="content">
+        <!-- List of departments -->
+        <ul data-role="listview" data-inset="true">
+          <li><a href="#">Information Technology</a></li>
+          <li><a href="#">Computer Science</a></li>
+          <li><a href="#">Civil</a></li>
+          <li><a href="#">Mechanical</a></li>
+          <!-- Add more departments as needed -->
+        </ul>
+
+        
+    <!-- Contact Page -->
+    <div data-role="page" id="contact" class="custom-page-theme">
+      <div data-role="header">
+        <h1>Contact</h1>
+      </div>
+      <div data-role="content">
+        <h2>Get in Touch</h2>
+        <p>For inquiries, please contact us at:</p>
+        <p>Email: info@ourcollege.edu</p>
+        <p>Phone: (123) 456-7890</p>
+        <!-- Additional contact information or a contact form -->
+      </div>
+      <div data-role="footer">
+        <div class="footer-content">&copy; 2023 Our College</div>
+      </div>
+    </div>
+  </body>
+</html>
