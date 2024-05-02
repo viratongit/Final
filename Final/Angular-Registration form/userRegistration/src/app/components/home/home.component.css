@@ -1,0 +1,18 @@
+.custom-heading {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.custom-button {
+  background-color: #285eba;
+  color: #90cd20;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #000000;
+}

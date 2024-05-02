@@ -1,0 +1,94 @@
+/* styles.css */
+
+/* Sidebar */
+.sidebar {
+  background-color: #3498db;
+  color: #fff;
+  height: 100vh;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+.main-content {
+  padding: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Tables */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+/* Cards */
+.card {
+  background-color: #343a40;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+/* Graph */
+#statisticsChart {
+  margin-top: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+/* Department Cards */
+.department-card {
+  background-color: #d33a3a;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.department-card .card-body {
+  padding: 15px;
+}
+
+.department-card .card-title {
+  font-size: 1.1rem;
+}

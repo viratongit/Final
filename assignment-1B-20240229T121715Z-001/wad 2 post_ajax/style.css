@@ -1,0 +1,38 @@
+/* Custom CSS styles */
+
+body {
+    background-color: #07213b;
+  }
+  
+  .card {
+    margin-top: 20px;
+    background-color: aqua;
+  }
+  
+  .card-header h2 {
+    margin-bottom: 0;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    background-color:red;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    background-color: #00b309;
+  }
+  
+  .btn-primary:hover {
+    background-color: #00b309;
+    border-color: #b36800;
+  }
+  
+  .mt-3 {
+    margin-top: 20px;
+  }
+  
